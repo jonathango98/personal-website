@@ -24,8 +24,16 @@ const Page1Landing = () => {
         <Text size={500} color="white">
           Hey! My name is
         </Text>
-        <Heading size={900} color="white" marginY={8}>
-          Jonathan Goenadibrata
+        <Heading
+          size={900}
+          color="white"
+          marginY={8}
+          fontSize={width > 768 ? "4em" : "3em"}
+          lineHeight="100%"
+        >
+          Jonathan
+          <br />
+          Goenadibrata
         </Heading>
         <Pane marginBottom={16}>
           <Text size={500} color="white">

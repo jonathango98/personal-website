@@ -18,6 +18,12 @@ const BottomLeft = () => {
           height={48}
           appearance="primary"
           intent="success"
+          onClick={() =>
+            window.open(
+              "https://docs.google.com/document/d/1TJvWmUwwN5_GeScUOykRsFAah5ZrnAkT0zqkjSh3Jb0/edit?usp=sharing",
+              "_blank"
+            )
+          }
         >
           RESUME
         </Button>

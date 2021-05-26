@@ -1,6 +1,6 @@
 import { Pane } from "evergreen-ui";
 import React from "react";
-import ProfileImg from "../../assets/profile.png";
+import ProfileImg from "../../assets/profile.jpeg";
 
 const TopLeft = () => {
   return (

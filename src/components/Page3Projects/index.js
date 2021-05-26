@@ -36,7 +36,11 @@ const Page3Projects = () => {
           height={getHeight(width)}
         >
           <Pane display="flex" alignItems="center">
-            <Heading size={900} color="white">
+            <Heading
+              size={900}
+              color="white"
+              fontSize={width > 768 ? "3em" : "2em"}
+            >
               Projects
             </Heading>
           </Pane>

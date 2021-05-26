@@ -14,7 +14,7 @@ function App() {
     ...defaultTheme,
     fontFamilies: {
       ...defaultTheme.fontFamilies,
-      display: "bely-display",
+      display: "nocturne-serif",
       ui: "niveau-grotesk",
     },
   };

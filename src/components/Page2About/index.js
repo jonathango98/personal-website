@@ -19,7 +19,7 @@ const Page2About = () => {
         paddingLeft={width > 768 ? 128 : 16}
         paddingRight={16}
       >
-        <Heading size={900} color="white" marginY={8}>
+        <Heading size={900} color="white" marginY={8} fontSize="3em">
           About Me
         </Heading>
         <Text size={500} color="white">

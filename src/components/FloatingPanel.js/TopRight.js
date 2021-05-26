@@ -9,11 +9,17 @@ const TopRight = () => {
       padding={16}
       display="flex"
       flexDirection="column"
+      alignItems="center"
       justifyContent="center"
       width="100%"
       height="100%"
     >
-      <Heading size={width > 768 ? 900 : 700} color="#eac36b" marginBottom={8}>
+      <Heading
+        size={width > 768 ? 900 : 700}
+        color="#eac36b"
+        textAlign="center"
+        marginBottom={8}
+      >
         Mechanical Engineering
       </Heading>
       <Text color="white">Specializing in Controls &amp; Robotics</Text>

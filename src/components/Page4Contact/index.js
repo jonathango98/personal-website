@@ -33,28 +33,41 @@ const Page4Contact = () => {
         <Text color="white" marginTop={8}>
           Name
         </Text>
-        <TextInput width="100%" marginTop={8} placeholder="John Doe" />
-        <Text color="white" marginTop={8}>
-          Email
-        </Text>
-        <TextInput
-          width="100%"
-          marginTop={8}
-          placeholder="johndoe@example.com"
-        />
-        <Text color="white" marginTop={8}>
-          Message
-        </Text>
-        <Textarea
-          width="100%"
-          marginTop={8}
-          placeholder="Hi! Let's have a chat"
-        />
-        <Pane marginTop={16}>
-          <Button appearance="primary" intent="success">
-            SEND
-          </Button>
-        </Pane>
+        <form name="contact" method="post">
+          <input type="hidden" name="contact" value="contact" />
+          <TextInput
+            width="100%"
+            marginTop={8}
+            placeholder="John Doe"
+            type="text"
+            name="name"
+          />
+          <Text color="white" marginTop={8}>
+            Email
+          </Text>
+          <TextInput
+            width="100%"
+            marginTop={8}
+            placeholder="johndoe@example.com"
+            type="email"
+            name="email"
+          />
+          <Text color="white" marginTop={8}>
+            Message
+          </Text>
+          <Textarea
+            width="100%"
+            marginTop={8}
+            placeholder="Hi! Let's have a chat"
+            type="text"
+            name="message"
+          />
+          <Pane marginTop={16}>
+            <Button appearance="primary" type="submit" intent="success">
+              SEND
+            </Button>
+          </Pane>
+        </form>
       </Pane>
     </Pane>
   );
