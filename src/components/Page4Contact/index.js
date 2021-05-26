@@ -41,6 +41,7 @@ const Page4Contact = () => {
             placeholder="John Doe"
             type="text"
             name="name"
+            required
           />
           <Text color="white" marginTop={8}>
             Email
@@ -51,6 +52,7 @@ const Page4Contact = () => {
             placeholder="johndoe@example.com"
             type="email"
             name="email"
+            required
           />
           <Text color="white" marginTop={8}>
             Message
