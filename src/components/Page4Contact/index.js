@@ -34,7 +34,7 @@ const Page4Contact = () => {
           Name
         </Text>
         <form name="contact" method="post">
-          <input type="hidden" name="contact" value="contact" />
+          <input type="hidden" name="form-name" value="contact" />
           <TextInput
             width="100%"
             marginTop={8}
