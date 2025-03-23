@@ -23,13 +23,14 @@ const Page2About = () => {
           About Me
         </Heading>
         <Text size={500} color="white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I'm a curious and thoughtful engineer with a passion for robotics and automation.
+          I’ve worked as a Robotics Engineer, where I gained hands-on experience building
+          and refining real-world systems, and I’m currently pursuing my Master’s in
+          Mechanical Engineering at UC Berkeley. I love exploring how things 
+          work—whether through programming, mechanical design, or prototyping.
+          I thrive in collaborative environments and value learning just as much as leading. 
+          I'm always looking for new ways to grow, connect ideas, and create meaningful impact
+          through technology.
         </Text>
       </Pane>
     </Pane>
