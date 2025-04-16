@@ -24,8 +24,6 @@ function App() {
       <div className="App">
         {width > 768 ? <FloatingPanel /> : null}
         <Page1Landing />
-        <Page2About />
-        <Page3Projects />
         <Page4Contact />
       </div>
     </ThemeProvider>
